@@ -15,7 +15,7 @@ Every later push to `main` will type-check, build, and deploy the site automatic
 ## Local verification
 
 ```bash
-npm ci
+npm ci --legacy-peer-deps
 npm run typecheck
 npx nuxt build --preset github_pages
 npm run preview
