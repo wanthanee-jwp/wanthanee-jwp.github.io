@@ -73,6 +73,7 @@ useHead({
       <AboutSection :summary="profile.summary" />
       <SkillsSection :skills="profile.skills" />
       <ExperienceSection :experience="profile.experience" />
+      <ActivitySection />
       <ProjectsSection :projects="profile.projects" />
       <AppFooter
         :name="profile.profile.name"

@@ -41,5 +41,8 @@ defineProps<{
     <template v-else-if="name === 'folder'">
       <path d="M4 5a2 2 0 0 1 2-2h3.5l2 2.5H18a2 2 0 0 1 2 2V17a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5z" />
     </template>
+    <template v-else-if="name === 'activity'">
+      <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+    </template>
   </svg>
 </template>

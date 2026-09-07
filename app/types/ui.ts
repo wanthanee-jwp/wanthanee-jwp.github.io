@@ -5,3 +5,4 @@ export type AppIconName =
   | 'code'
   | 'briefcase'
   | 'folder'
+  | 'activity'
