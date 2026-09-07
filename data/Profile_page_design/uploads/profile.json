@@ -1,0 +1,409 @@
+{
+  "profile": {
+    "name": "Wanthanee Pansrisuk",
+    "position": "Backend Developer",
+    "experienceYears": 6,
+    "company": "INNOVATE AI CO., LTD.",
+    "location": "Thailand",
+    "specialization": [
+      "Backend Development",
+      "API Development",
+      "System Integration",
+      "Database-driven Applications",
+      "AI-enabled Backend Services"
+    ]
+  },
+  "summary": "Backend Developer with 6 years of experience at INNOVATE AI CO., LTD., responsible for developing and maintaining backend systems, APIs, system integrations, and AI-enabled services. Experienced in Node.js, NestJS, Python, FastAPI, MySQL, and PostgreSQL, with hands-on involvement in LINE-based applications, real-time systems, background processing, cloud integrations, and production issue resolution.",
+  "skills": [
+    {
+      "category": "Backend",
+      "items": [
+        "Node.js",
+        "NestJS",
+        "Python",
+        "FastAPI"
+      ]
+    },
+    {
+      "category": "Database & ORM",
+      "items": [
+        "MySQL",
+        "PostgreSQL",
+        "MSSQL",
+        "TypeORM",
+        "SQLAlchemy"
+      ]
+    },
+    {
+      "category": "Integration & Real-time",
+      "items": [
+        "REST API",
+        "LINE Messaging API",
+        "Webhooks",
+        "Socket.IO",
+        "JWT"
+      ]
+    },
+    {
+      "category": "AI & Data",
+      "items": [
+        "LangGraph",
+        "LangChain",
+        "Gemini",
+        "Vertex AI",
+        "Anthropic Claude",
+        "pgvector",
+        "LLM Integration"
+      ]
+    },
+    {
+      "category": "Cloud & Infrastructure",
+      "items": [
+        "Docker",
+        "Redis",
+        "Amazon S3",
+        "AWS Secrets Manager",
+        "Google Cloud Storage"
+      ]
+    },
+    {
+      "category": "Tools & Testing",
+      "items": [
+        "Swagger",
+        "Postman",
+        "Jest"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "INNOVATE AI CO., LTD.",
+      "position": "Backend Developer",
+      "startDate": "Jun 2020",
+      "endDate": "Present",
+      "responsibilities": [
+        "Develop and maintain backend APIs using Node.js, NestJS, Python, and FastAPI.",
+        "Design and maintain relational databases including MySQL and PostgreSQL.",
+        "Develop integrations with LINE Messaging API, external partner APIs, payment services, and cloud services.",
+        "Develop real-time communication features and event-driven workflows.",
+        "Support AI-powered backend workflows including LLM integration, embeddings, and vector search.",
+        "Implement authentication, authorization, access control, webhook validation, and API security.",
+        "Develop background jobs, scheduled processing, data import, and reporting workflows.",
+        "Investigate and resolve backend and production issues related to database performance, API integration, deployment, and system reliability.",
+        "Create and maintain API documentation and integration specifications."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI VOC Insights",
+      "description": "แพลตฟอร์ม Voice of Customer แบบ multi-tenant สำหรับรับข้อมูลจาก LINE OA และระบบพันธมิตร แล้วจัดการเป็น case, project, master data, notification, report และ dashboard",
+      "role": "Backend Developer",
+      "highlights": [
+        "พัฒนา multi-tenant backend และรองรับ LINE bot หลายตัวต่อ tenant",
+        "พัฒนา case management, project, topic, master data, report import และ dashboard APIs",
+        "พัฒนา LINE และ partner webhook พร้อม AI session lifecycle และ Teemchat integration",
+        "เพิ่ม role/channel-based access control, LINE signature validation, CORS allowlist และ security headers",
+        "จัดทำ Postman collections, API contracts และ partner integration documentation"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "NestJS",
+        "PostgreSQL",
+        "TypeORM",
+        "LINE Messaging API",
+        "Socket.IO",
+        "AWS Secrets Manager",
+        "Amazon S3",
+        "Google Cloud Storage",
+        "Swagger",
+        "Jest",
+        "Docker"
+      ],
+      "github": "",
+      "demo": ""
+    },
+    {
+      "name": "AI Sales Assistant / AI Speed-Up",
+      "description": "ผู้ช่วยขายผ่าน LINE และ Web สำหรับค้นหาและแนะนำสินค้า จัดการตะกร้า โปรโมชั่น ที่อยู่ คำสั่งซื้อ PromptPay และการส่งต่อเจ้าหน้าที่",
+      "role": "Backend Developer",
+      "highlights": [
+        "พัฒนา backend modules สำหรับสินค้า โปรโมชั่น ลูกค้า ร้านค้า คำสั่งซื้อ การชำระเงิน รายงาน และ knowledge documents",
+        "พัฒนาและปรับ conversational workflow สำหรับ address, checkout, payment และ order cancellation",
+        "เชื่อม LINE location และ LIFF address management เข้ากับ AI workflow",
+        "แก้ Omise webhook signature และทำ payment reconciliation ก่อน refund หรือ void",
+        "พัฒนา knowledge and product embedding pipeline ด้วย background jobs และ vector search",
+        "แก้ปัญหา production ด้าน CORS, build output, file upload และ PDF assets"
+      ],
+      "technologies": [
+        "TypeScript",
+        "NestJS",
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "LangChain",
+        "Gemini",
+        "Vertex AI",
+        "PostgreSQL",
+        "pgvector",
+        "TypeORM",
+        "SQLAlchemy",
+        "Alembic",
+        "LINE Messaging API",
+        "Omise",
+        "AWS Secrets Manager",
+        "Docker"
+      ],
+      "github": "",
+      "demo": ""
+    },
+    {
+      "name": "Consolidate Chat Operations Platform",
+      "description": "ระบบหลังบ้านสำหรับทีม admin และ agent ที่ใช้บริหารบทสนทนาจากหลาย LINE OA รวมถึงผู้ใช้ สิทธิ์ คิว ข้อความสำเร็จรูป Rich Menu Audience และ Notification",
+      "role": "Backend Developer",
+      "highlights": [
+        "พัฒนาและดูแลระบบ real-time chat operations สำหรับหลายโครงการและหลายช่องทาง",
+        "พัฒนา queue, transaction, order payload, role และ permission workflows",
+        "แก้ database connection exhaustion ที่เกิดจาก cron jobs ทำงานซ้อนกัน",
+        "ลดปัญหา N+1 queries และปรับปรุงความเสถียรของ scheduled processing",
+        "แก้ notification socket room, delayed-response และ customer-specific integrations"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "NestJS",
+        "TypeORM",
+        "MySQL",
+        "MongoDB",
+        "RocksDB",
+        "Socket.IO",
+        "NestJS Scheduler",
+        "JWT",
+        "AWS Secrets Manager",
+        "Docker"
+      ],
+      "github": "",
+      "demo": ""
+    },
+    {
+      "name": "CPAC LINE Ordering and Queue Platform",
+      "description": "ระบบบริการลูกค้าผ่าน LINE สำหรับค้นหาราคา ขอใบเสนอราคา จัดการใบแจ้งหนี้ จองและยืนยันคิวรถ รวมถึงเชื่อมต่อระบบหลังบ้าน",
+      "role": "Backend Developer",
+      "highlights": [
+        "พัฒนา booking และ confirmation workflow สำหรับคิวรถ",
+        "พัฒนา quotation PDF, invoice booking และ long-page screenshot generation",
+        "พัฒนา price list, one-click price lookup และ franchise validation",
+        "ปรับ LINE webhook postback, queue classification และ external API endpoints",
+        "แก้ error logging และ defect ใน customer journey"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "NestJS",
+        "TypeORM",
+        "LINE Messaging API",
+        "REST API",
+        "PDF Generation",
+        "Puppeteer",
+        "Swagger",
+        "Docker"
+      ],
+      "github": "",
+      "demo": ""
+    },
+    {
+      "name": "Sentiment Analytics Platform",
+      "description": "ระบบประมวลผลประวัติแชตเพื่อวิเคราะห์ sentiment และ sales opportunity พร้อม scheduled pipeline, dashboard queries, access filtering และ data import",
+      "role": "Backend Developer",
+      "highlights": [
+        "เพิ่ม LLM sentiment processor และเชื่อมเข้ากับ scheduled processing pipeline",
+        "พัฒนา line-group master และ role/platform-based data filtering",
+        "ปรับ batch processing ด้วยการกรองข้อความว่าง, batch-fetch IDs, timeout และการปิด database connections",
+        "แก้ dashboard sentiment ordering และ MySQL driver compatibility",
+        "เพิ่ม failure logging และรองรับการนำเข้าผู้ใช้ผ่าน Excel"
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Flask",
+        "MySQL",
+        "SQLAlchemy",
+        "SQL",
+        "APScheduler",
+        "AWS Secrets Manager",
+        "Excel",
+        "Looker",
+        "JWT",
+        "Docker"
+      ],
+      "github": "",
+      "demo": ""
+    },
+    {
+      "name": "LINE Bot Center Platform",
+      "description": "แพลตฟอร์มศูนย์กลางสำหรับบริหาร LINE bots, users, groups, messages, broadcasts, claims, products, transactions และ integrations ของหลายธุรกิจ",
+      "role": "Backend Developer",
+      "highlights": [
+        "พัฒนา product search และการค้นหาสินค้าหลาย material codes",
+        "พัฒนาและแก้ไข transaction creation, transaction detail และ quotation PDF",
+        "แก้ claim validation และ claim status workflows",
+        "ปรับ LINE loading behavior และ customer-specific webhook flows",
+        "ทำงานบน modular backend ที่เชื่อมข้อมูล LINE, commerce และ reporting"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "NestJS",
+        "TypeORM",
+        "Prisma",
+        "MySQL",
+        "LINE Messaging API",
+        "Socket.IO",
+        "Google BigQuery",
+        "Google Cloud Storage",
+        "Puppeteer",
+        "Excel",
+        "Docker"
+      ],
+      "github": "",
+      "demo": ""
+    },
+    {
+      "name": "MatchMat Product and Material API",
+      "description": "Backend API สำหรับข้อมูลสินค้า วัสดุ แบรนด์ ราคา รูปภาพ บทความ และการเปรียบเทียบผลิตภัณฑ์ พร้อมเชื่อมต่อ cloud storage",
+      "role": "Backend Developer",
+      "highlights": [
+        "พัฒนาและดูแล product and material data APIs",
+        "พัฒนา product image, pricing และ currency handling",
+        "เพิ่มการตรวจสอบรูปภาพเสียและปรับปรุง media handling",
+        "ดูแล user timestamps และ cloud/Firebase integrations",
+        "ทำงานกับ data import และ relational data models"
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "SQLAlchemy",
+        "Alembic",
+        "Firebase",
+        "Google Cloud Storage",
+        "Amazon S3",
+        "Pandas",
+        "OpenPyXL",
+        "JWT"
+      ],
+      "github": "",
+      "demo": ""
+    },
+    {
+      "name": "New Partner Sales Operations Platform",
+      "description": "ระบบ backend สำหรับบริหารผู้ใช้ ฝ่ายขาย dealer และ territory พร้อม sales planning, price and stock, Excel import และ operational reporting",
+      "role": "Backend Developer",
+      "highlights": [
+        "พัฒนาและดูแล business workflows สำหรับ sales, dealer และ territory operations",
+        "แก้ user input validation และ default-value handling",
+        "ปรับ territory plan Excel upload workflow",
+        "พัฒนา dealer visit and price focus graphs รวมถึง operational reports",
+        "แก้ edge cases ของ product price, stock และ customer data"
+      ],
+      "technologies": [
+        "PHP",
+        "SQL",
+        "Relational Database",
+        "Excel Import/Export",
+        "REST API",
+        "Reporting"
+      ],
+      "github": "",
+      "demo": ""
+    },
+    {
+      "name": "Bio-ID Staff and Permission API",
+      "description": "Backend API สำหรับจัดการข้อมูลพนักงาน ผู้ใช้ และสิทธิ์การเข้าถึงในระบบองค์กร",
+      "role": "Backend Developer",
+      "highlights": [
+        "วางโครงสร้าง backend project และพัฒนา staff module",
+        "พัฒนา role and permission management",
+        "แก้ defect ใน staff listing",
+        "เชื่อม database และ AWS-based configuration"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "NestJS",
+        "TypeORM",
+        "MSSQL",
+        "MySQL",
+        "AWS Secrets Manager",
+        "Swagger",
+        "Jest"
+      ],
+      "github": "",
+      "demo": ""
+    },
+    {
+      "name": "Mr. Chang AI Chatbot",
+      "description": "LINE OA chatbot สำหรับตอบคำถามและแนะนำสินค้าในกลุ่มวิตามิน อาหารเสริม และผลิตภัณฑ์สุขภาพ พร้อม session, knowledge base, safety และ human escalation",
+      "role": "Backend Developer",
+      "highlights": [
+        "จัดทำโครงสร้างเริ่มต้นของ NestJS chatbot service",
+        "แยก modules สำหรับ LINE, chat, session, knowledge base และ escalation",
+        "เพิ่ม environment and secret hygiene โดยนำไฟล์ environment ออกจาก repository",
+        "รองรับ LINE signature validation และ LLM-based responses"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "NestJS",
+        "Anthropic Claude",
+        "LINE Messaging API",
+        "Redis",
+        "REST API"
+      ],
+      "github": "",
+      "demo": ""
+    },
+    {
+      "name": "Smart Health Prototype",
+      "description": "ต้นแบบระบบสนทนาด้านสุขภาพสำหรับทดลอง user journey, interaction และแนวทางนำ AI มาใช้กับการให้ข้อมูลเบื้องต้น",
+      "role": "Backend Developer",
+      "highlights": [
+        "พัฒนาต้นแบบเพื่อสื่อสารแนวคิดและลำดับการใช้งาน",
+        "ทดลอง conversational user experience สำหรับ use case ด้านสุขภาพ",
+        "ใช้เป็น proof of concept ก่อนพัฒนาระบบเต็มรูปแบบ"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Conversational UI",
+        "Rapid Prototyping"
+      ],
+      "github": "",
+      "demo": ""
+    },
+    {
+      "name": "Secretary AI Prototype",
+      "description": "ต้นแบบ AI assistant สำหรับทดลองแนวคิดผู้ช่วยส่วนบุคคลและ conversational workflow",
+      "role": "Backend Developer",
+      "highlights": [
+        "สร้าง proof of concept สำหรับ AI assistant",
+        "ทดลอง interaction flow และการตอบสนองแบบสนทนา",
+        "ใช้ rapid prototyping เพื่อประเมินแนวคิดผลิตภัณฑ์"
+      ],
+      "technologies": [
+        "HTML",
+        "JavaScript",
+        "Conversational AI",
+        "Rapid Prototyping"
+      ],
+      "github": "",
+      "demo": ""
+    }
+  ],
+  "contact": {
+    "email": "wanthanee.p@merudy.com",
+    "github": "@wanthanee-jwp",
+    "gitlab": "@wanthanee-jwp"
+  }
+}

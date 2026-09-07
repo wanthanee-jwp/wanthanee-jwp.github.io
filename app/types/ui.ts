@@ -1,0 +1,10 @@
+export type AppIconName =
+  | 'layers'
+  | 'summary'
+  | 'code'
+  | 'briefcase'
+  | 'folder'
+  | 'mail'
+  | 'link'
+  | 'pin'
+  | 'clock'
