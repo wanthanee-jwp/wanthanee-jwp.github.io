@@ -12,6 +12,15 @@ const description = profile.summary.length > 160
 const siteUrl = config.public.siteUrl.trim().replace(/\/$/, '')
 const sameAs = contactLinks.value.filter(link => link.external).map(link => link.href)
 
+const initials = profile.profile.name
+  .split(/\s+/)
+  .filter(Boolean)
+  .slice(0, 2)
+  .map(word => word[0]?.toUpperCase() ?? '')
+  .join('')
+const projectCount = profile.projects.length
+const totalSkills = profile.skills.reduce((sum, cat) => sum + cat.items.length, 0)
+
 useSeoMeta({
   title,
   description,
@@ -53,19 +62,23 @@ useHead({
 
 <template>
   <div class="page-shell">
-    <AppHeader :name="profile.profile.name" />
-    <main id="main-content">
-      <HomeSection :profile="profile.profile" :contact-links="contactLinks" />
-      <AboutSection :summary="profile.summary" :specialization="profile.profile.specialization" />
+    <main id="main-content" class="container">
+      <HomeSection
+        :profile="profile.profile"
+        :contact-links="contactLinks"
+        :initials="initials"
+        :project-count="projectCount"
+        :total-skills="totalSkills"
+      />
+      <AboutSection :summary="profile.summary" />
       <SkillsSection :skills="profile.skills" />
       <ExperienceSection :experience="profile.experience" />
       <ProjectsSection :projects="profile.projects" />
-      <ContactSection :links="contactLinks" />
+      <AppFooter
+        :name="profile.profile.name"
+        :position="profile.profile.position"
+        :location="profile.profile.location"
+      />
     </main>
-    <AppFooter
-      :name="profile.profile.name"
-      :position="profile.profile.position"
-      :location="profile.profile.location"
-    />
   </div>
 </template>

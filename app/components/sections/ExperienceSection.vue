@@ -7,7 +7,7 @@ defineProps<{
 </script>
 
 <template>
-  <section id="experience" class="content-section section-anchor container" aria-labelledby="experience-title">
+  <section id="experience" class="section" aria-labelledby="experience-title">
     <SectionHeading title="Experience" icon="briefcase" heading-id="experience-title" />
     <div class="experience-list">
       <ExperienceItem

@@ -11,7 +11,10 @@ defineProps<{
 
 <template>
   <div class="section-heading">
-    <AppIcon :name="icon" />
-    <h2 :id="headingId">{{ title }}<template v-if="count !== undefined"> ({{ count }})</template></h2>
+    <span class="section-heading__icon" aria-hidden="true">
+      <AppIcon :name="icon" />
+    </span>
+    <h2 :id="headingId">{{ title }}</h2>
+    <span v-if="count !== undefined" class="section-heading__count">({{ count }})</span>
   </div>
 </template>

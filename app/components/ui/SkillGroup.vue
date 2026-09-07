@@ -7,8 +7,10 @@ defineProps<{
 </script>
 
 <template>
-  <article class="skill-group">
-    <h3>{{ skill.category }}</h3>
-    <TagList :items="skill.items" :label="`${skill.category} skills`" />
+  <article class="skill-card">
+    <h3 class="skill-card__title">{{ skill.category }}</h3>
+    <ul class="skill-list" :aria-label="`${skill.category} skills`">
+      <li v-for="item in skill.items" :key="item" class="skill-list__item">{{ item }}</li>
+    </ul>
   </article>
 </template>

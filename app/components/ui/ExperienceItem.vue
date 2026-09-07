@@ -7,15 +7,15 @@ defineProps<{
 </script>
 
 <template>
-  <article class="experience-item">
-    <header class="experience-item__summary">
-      <h3>{{ experience.position }}</h3>
-      <p>{{ experience.company }}</p>
-      <p class="experience-item__date">
+  <article class="experience-card">
+    <header>
+      <h3 class="experience-card__title">{{ experience.position }}</h3>
+      <p class="experience-card__company">{{ experience.company }}</p>
+      <span class="experience-card__date">
         {{ experience.startDate }} — {{ experience.endDate }}
-      </p>
+      </span>
     </header>
-    <ul class="detail-list">
+    <ul class="experience-card__list">
       <li v-for="responsibility in experience.responsibilities" :key="responsibility">
         {{ responsibility }}
       </li>
